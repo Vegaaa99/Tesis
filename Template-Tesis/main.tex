@@ -1,0 +1,141 @@
+\documentclass{article}
+
+\renewcommand{\refname}{5. Referencias}
+\usepackage[utf8]{inputenc}
+
+\usepackage[english]{babel}
+\usepackage{multicol}
+\usepackage{sectsty}
+\usepackage[affil-it]{authblk}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\setlength{\columnsep}{4.26mm}
+\usepackage{geometry}
+\usepackage{courier}
+\usepackage{amsmath}
+\usepackage{cancel}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage[export]{adjustbox}
+\usepackage{float}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{xcolor}
+\usepackage{enumitem} % Permite cambiar el estilo de los items
+\setlist[itemize]{label=$\bullet$} % Pone los items como puntos
+
+% Define custom colors
+\definecolor{includeColor}{RGB}{154, 201, 165} % Color for #include statements
+\definecolor{defineColor}{RGB}{5, 90, 25}      % Color for #define statements
+\definecolor{functionColor}{RGB}{0, 102, 204}  % Color for function names
+\definecolor{commentColor}{RGB}{128, 128, 128} % Color for comments
+\definecolor{variableColor}{RGB}{0, 128, 0}    % Color for variables
+\definecolor{stringColor}{RGB}{163, 21, 21}    % Color for strings
+% Configure listings
+\lstset{
+    language=C++,
+    basicstyle=\ttfamily\footnotesize, % Basic font size and style
+    keywordstyle=\color{blue},         % Color for keywords
+    commentstyle=\color{commentColor}, % Color for comments
+    stringstyle=\color{stringColor},   % Color for strings
+    numbers=left,                      % Line numbers on the left
+    numberstyle=\tiny\color{gray},     % Style for line numbers
+    stepnumber=1,                      % Line numbers step
+    numbersep=10pt,                    % Space between numbers and code
+    tabsize=4,                         % Size of tabs
+    showspaces=false,                  % Do not show spaces
+    showstringspaces=false,            % Do not show spaces in strings
+    breaklines=true,                   % Break lines
+    breakatwhitespace=true,            % Break lines at whitespace
+    escapeinside={(*@}{@*)},           % Escape for custom coloring
+    morekeywords={NewPing, Servo, Vector, boolean}, % Additional keywords
+    emph={pinMode, digitalWrite, analogWrite, delay, Serial, println, attach, begin}, % Specific functions to highlight
+    emphstyle=\color{functionColor},   % Color for specified functions
+}
+
+
+ \geometry{
+ letterpaper,
+ top=17mm,
+ bottom=22.4mm,
+ left=15.3mm,
+ right=15.3mm,}
+
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\title{\vspace{-1.5cm}\includegraphics[scale=0.32]{Unal.jpg} \\ \vspace{-0.3cm} \textbf{Characterization of rocky exoplanets in habitable zones: An astrobiological approach}} %Poner título y el logo de la U
+
+
+\author{
+    María Valentina Vega Caro\\
+    
+    \texttt{\textup{mavegac@unal.edu.co}}
+    }
+    
+\affil{
+    \textbf{Trabajo de Grado} \\
+    \textbf{Universidad Nacional de Colombia} \\ 
+    Bogotá D.C., Colombia
+    }
+
+
+
+\usepackage{graphicx}
+\graphicspath{ {/} }
+
+
+
+
+\begin{document}
+\renewcommand{\listtablename}{Índice de Tablas}
+\renewcommand{\tablename}{Tabla}
+\sloppy
+\maketitle
+
+\noindent\makebox[\linewidth]{\rule{18cm}{0.4pt}}
+
+\vspace{0.3cm}
+
+\begin{abstract} %EL CHACHOOOOO
+    
+\end{abstract}
+\noindent\makebox[\linewidth]{\rule{18cm}{0.4pt}}
+
+\vspace{0.3cm}
+
+\section*{Introduction} %ESTO YA ESTÁ
+    %En qué consiste?
+    
+    %El objetivo de este proyecto es desarrollar una Aspiradora Inteligente utilizando materiales reciclados, como botellas de plástico y tapas, con el propósito de fomentar la reutilización de desechos y la creación de soluciones sostenibles. Este robot, diseñado para operar de manera autónoma, se dedicará a la limpieza de espacios interiores mediante la detección y aspiración de suciedad.
+
+    %Por qué es importante?     
+    %Cuál es la situación problema? Cómo lo soluciona?
+    %La situación problema que busca resolver es la falta de acceso a aspiradoras convencionales o su elevado costo, especialmente cuando se cuenta con recursos limitados, lo que puede resultar en una limpieza deficiente de los espacios interiores. La solución propuesta, mediante la creación de una Aspiradora Inteligente, tiene como objetivo facilitar una limpieza efectiva y accesible de los entornos interiores, beneficiando así a personas con horarios ocupados o limitaciones físicas.
+\section*{Methodology} 
+ 
+
+\section*{Results and Analysis} 
+
+\section*{Discussion} 
+
+\section*{Conclusions} 
+    %Conclusiones
+    %El proyecto de la Aspiradora Inteligente ha demostrado ser una solución innovadora y sostenible para la limpieza de espacios interiores. A través de la utilización de materiales reciclados, se ha promovido la reutilización y la conciencia ambiental. La integración de componentes electrónicos y programación ha permitido el desarrollo de un robot autónomo capaz de detectar obstáculos y aspirar suciedad de manera eficiente. Sin embargo, se han identificado áreas de mejora, como la calidad de los materiales utilizados y la optimización del código para una mayor eficiencia energética. En general, este proyecto representa un paso hacia soluciones más sostenibles y accesibles en el ámbito de la limpieza doméstica.
+\section*{Acknowledgments}
+    %Agradecimientos
+    %Agradezco a la Universidad Nacional de Colombia por brindarme la oportunidad de realizar este proyecto y a mis profesores por su apoyo y orientación durante el proceso. También agradezco a mi familia y amigos por su aliento y motivación constante.
+
+\bibliographystyle{unsrt}
+\bibliography{References}
+
+\end{document}
