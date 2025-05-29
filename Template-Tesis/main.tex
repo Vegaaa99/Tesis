@@ -102,6 +102,7 @@
 \sloppy
 \maketitle
 
+
 \noindent\makebox[\linewidth]{\rule{18cm}{0.4pt}}
 
 \vspace{0.3cm}
@@ -112,23 +113,32 @@
 \noindent\makebox[\linewidth]{\rule{18cm}{0.4pt}}
 
 \vspace{0.3cm}
-
-\section*{Introduction} %ESTO YA ESTÁ
-    %En qué consiste?
+\begin{multicols}{2}
     
-    %El objetivo de este proyecto es desarrollar una Aspiradora Inteligente utilizando materiales reciclados, como botellas de plástico y tapas, con el propósito de fomentar la reutilización de desechos y la creación de soluciones sostenibles. Este robot, diseñado para operar de manera autónoma, se dedicará a la limpieza de espacios interiores mediante la detección y aspiración de suciedad.
 
-    %Por qué es importante?     
+\section{Introduction} %ESTO YA ESTÁ
+    %En qué consiste?
+    The study of rocky exoplanets, in particular earth liked and super earths planets, has become one of the most important focus in astronomy and planetary sciences. Currently, there are over 5000 confirmed exoplanets \cite{caltechNASAExoplanet}. With taht in mind, we may asking, which of these worlds coudl potentially harbor life?. To adrees this, scientifics classify habitability having into account orbital, stellar and atmospheric parameters by defining the concept of Habitable zone (HZ). The HZ designates the region around the host star where liquid water could exist on the planet's surface, analogous to Earth's conditions \cite{kasting1993}. To determine this zone is commonly use climate models to set the boundaries accuretly. \\
+    \subsection{\textbf{Climate modelling approaches}}
+    One dimensional (1D) climate models are widely used to set the boundaries of the HZ. These models consider parameters such as stellar radiation, albedo, relative humidity profiles and greenhouse gas effects ( particulary gases like $CO_{2}$, $H_{2}O$ and $N_{2}$). They provide insights into the temperature distribution and potential habitability of planets in different orbital configurations \cite{kopparapu2019}. However, these models have limitations, as they often oversimplify complex atmospheric processes and fail to account for variations in planetary conditions. That is why three dimensional models (3D) are also implement, nverthless these models requeire more computational resourcess.\\
+    \subsection{\textbf{Boundaries of HZ}}
+    The boundaries of the HZ  are defined by the following conditions: 
+    \begin{itemize}
+        \item \textbf{Inner boundary(Moist greenhouse):} The inner boundary of the HZ is determined by the runaway greenhouse effect, where the planet's surface temperature becomes too high for liquid water to exist. This occurs when the stellar flux exceeds is too hight that the mixing ratio of water vapor reaches an amount of $10^{-3}$ (vs Earth's $10^-6$), leading hydrogen lost via photolysis. 
+        \item \textbf{Intermedium boundary (runway greenhouse):} The intermedium boundary is where water is completely evaporated, the atmosphere becomes opaque to outgoing thermal radiation, creating a heating scenario where the surface's temperature could exceed 1500k like in Venus.\\
+        \item \textbf{Outer boundary (Maximum greenhouse):} The outer boundary is where the $CO_{2}$ induced warming reaches its maximun effectiveness, with concentrations between 6-10 bars. However, despite the high  gas greenhouse concentrations, due to the increasing of Rayleigh scattering, the planet's surface experience a cooling effect.\\
+        \item 
+    \end{itemize}
     %Cuál es la situación problema? Cómo lo soluciona?
     %La situación problema que busca resolver es la falta de acceso a aspiradoras convencionales o su elevado costo, especialmente cuando se cuenta con recursos limitados, lo que puede resultar en una limpieza deficiente de los espacios interiores. La solución propuesta, mediante la creación de una Aspiradora Inteligente, tiene como objetivo facilitar una limpieza efectiva y accesible de los entornos interiores, beneficiando así a personas con horarios ocupados o limitaciones físicas.
-\section*{Methodology} 
+\section{Methodology} 
  
 
-\section*{Results and Analysis} 
+\section{Results and Analysis} 
 
-\section*{Discussion} 
+\section{Discussion} 
 
-\section*{Conclusions} 
+\section{Conclusions} 
     %Conclusiones
     %El proyecto de la Aspiradora Inteligente ha demostrado ser una solución innovadora y sostenible para la limpieza de espacios interiores. A través de la utilización de materiales reciclados, se ha promovido la reutilización y la conciencia ambiental. La integración de componentes electrónicos y programación ha permitido el desarrollo de un robot autónomo capaz de detectar obstáculos y aspirar suciedad de manera eficiente. Sin embargo, se han identificado áreas de mejora, como la calidad de los materiales utilizados y la optimización del código para una mayor eficiencia energética. En general, este proyecto representa un paso hacia soluciones más sostenibles y accesibles en el ámbito de la limpieza doméstica.
 \section*{Acknowledgments}
@@ -137,5 +147,5 @@
 
 \bibliographystyle{unsrt}
 \bibliography{References}
-
+\end{multicols}
 \end{document}

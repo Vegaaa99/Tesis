@@ -1,3 +1,18 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{caltechNASAExoplanet}
+{N}{A}{S}{A} {E}xoplanet {A}rchive --- exoplanetarchive.ipac.caltech.edu.
+\newblock \url{https://exoplanetarchive.ipac.caltech.edu}.
+\newblock [Accessed 29-05-2025].
+
+\bibitem{kasting1993}
+James~F. Kasting, Daniel~P. Whitmire, and Ray~T. Reynolds.
+\newblock Habitable zones around main sequence stars.
+\newblock {\em Icarus}, 101(1):108–128, January 1993.
+
+\bibitem{kopparapu2019}
+Ravi~kumar Kopparapu, Eric~T. Wolf, and Victoria~S. Meadows.
+\newblock Characterizing exoplanet habitability.
+\newblock 2019.
 
 \end{thebibliography}

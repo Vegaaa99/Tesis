@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.21)  22 MAY 2025 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.21)  28 MAY 2025 21:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -589,7 +589,7 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count328
-<Unal.jpg, id=3, 387.4475pt x 366.36874pt>
+<Unal.jpg, id=31, 387.4475pt x 366.36874pt>
 File: Unal.jpg Graphic file (type jpg)
 <use Unal.jpg>
 Package pdftex.def Info: Unal.jpg  used on input line 104.
@@ -597,32 +597,63 @@ Package pdftex.def Info: Unal.jpg  used on input line 104.
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 104.
 (C:\Users\maval\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (d:\Documents\Documentos_Valentina\Tesis\Template-Tesis\build\main.bbl
+)
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
+ []
 
-) [1
 
-{C:/Users/maval/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Unal.jpg>] (d:\Documents\Documentos_Valentina\Tesis\Template-Tesis\build\main.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+[1
+
+{C:/Users/maval/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Unal.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+
+ []
+
+(d:\Documents\Documentos_Valentina\Tesis\Template-Tesis\build\main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+[]\OT1/cmr/m/n/10 NASA Ex-o-planet Archive --- ex-o-plan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+\OT1/cmr/m/n/10 etarchive.ipac.caltech.edu.  []$\OT1/pcr/m/n/10 https : / /
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 4--7
+\OT1/pcr/m/n/10 exoplanetarchive . ipac . caltech . edu$[]\OT1/cmr/m/n/10 .  [Ac-
+ []
+
+) [2] (d:\Documents\Documentos_Valentina\Tesis\Template-Tesis\build\main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 143AE29115469592AD5E9A40443C2976;887.
  ) 
 Here is how much of TeX's memory you used:
- 16222 strings out of 474486
- 263717 string characters out of 5743755
- 1931542 words of memory out of 5000000
- 38275 multiletter control sequences out of 15000+600000
- 561406 words of font info for 47 fonts, out of 8000000 for 9000
+ 16272 strings out of 474486
+ 264414 string characters out of 5743755
+ 1940542 words of memory out of 5000000
+ 38310 multiletter control sequences out of 15000+600000
+ 563336 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,97p,803b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on d:\Documents\Documentos_Valentina\Tesis\Template-Tesis\build\main.pdf (1 page, 150351 bytes).
+ 75i,5n,97p,834b,742s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/maval/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on d:\Documents\Documentos_Valentina\Tesis\Template-Tesis\build\main.pdf (2 pages, 237929 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
