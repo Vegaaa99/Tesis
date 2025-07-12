@@ -1,8 +1,4 @@
-EPIC 206024342 c SEMI_MAJOR AXIS
-K2-368 b SEMI MAJOR AXIS
-AU Mic d NAN semi major axis
-K2-363 b semi major axis 0.118
-TOI-1453 b NAN SEMI MAJOR AXIS
-K2-350 b Eccentricity 0.0503
-GJ 357 b ECCENTRICITY 0.047
-OGLE-2016-BLG-0007L b ECCENTRICITY NAN 
+K1 Kepler-716 c
+Planeta: OGLE-2019-BLG-0960L b, Fila: 67, Columna: 'Spectral_type'
+✅ Valor guardado: nan
+Planeta: Kepler-1445 b, Fila: 106, Columna: 'Spectral_type' A EVALUAR
