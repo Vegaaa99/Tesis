@@ -2,3 +2,4 @@ K1 Kepler-716 c
 Planeta: OGLE-2019-BLG-0960L b, Fila: 67, Columna: 'Spectral_type'
 ✅ Valor guardado: nan
 Planeta: Kepler-1445 b, Fila: 106, Columna: 'Spectral_type' A EVALUAR
+probando
