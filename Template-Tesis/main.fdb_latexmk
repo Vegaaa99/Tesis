@@ -1,0 +1,23 @@
+# Fdb version 4
+["pdflatex"] 1752981700.94045 "/home/mavegac/Tesis/Template-Tesis/main.tex" "main.pdf" "main" 1752981701.14655 2
+  "/home/mavegac/Tesis/Template-Tesis/main.tex" 1752980951.34826 8451 51924c7cc1fe09b5f0e9b4f3a42144a8 ""
+  "/usr/share/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
+  "/usr/share/texmf-dist/tex/generic/babel/babel.sty" 1711748144 146574 57b2d0b841f5ba351d3d7e0a1fbdd58a ""
+  "/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-en.ini" 1661803479 3966 caeee5a9e5771d4446aa1ca9015ba1b2 ""
+  "/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex" 1498512262 336 ed676b5e7dfd862bc78d634f6a973f37 ""
+  "/usr/share/texmf-dist/tex/generic/babel/txtbabel.def" 1704662920 6948 df63e25be1d2bc35bbad5a0141f41348 ""
+  "/usr/share/texmf-dist/tex/latex/base/article.cls" 1705352648 20144 147463a6a579f4597269ef9565205cfe ""
+  "/usr/share/texmf-dist/tex/latex/base/inputenc.sty" 1705352648 5048 425739d70251273bf93e3d51f3c40048 ""
+  "/usr/share/texmf-dist/tex/latex/base/size10.clo" 1705352648 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "/usr/share/texmf-dist/tex/latex/sectsty/sectsty.sty" 1137110779 22423 d476012cd03f82f9475ad54ba6cd3267 ""
+  "/usr/share/texmf-dist/tex/latex/tools/multicol.sty" 1686341992 32515 51caec75eda9c8890135f12f1a4eddc3 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1730142614 41634 a70e89e062da12d53372b136490ddb2b ""
+  "/usr/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1731884053 8222855 1640869dc6ea554574fb8c58fc134f75 ""
+  "authblk.sty" 0 -1 0 ""
+  "main.aux" 1752981700.9297 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1752980951.34826 8451 51924c7cc1fe09b5f0e9b4f3a42144a8 ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)
